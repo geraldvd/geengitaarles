@@ -34,6 +34,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/grechen-fuemen": "^5.0.20",
 		"three": "^0.167.0"
 	}
 }

@@ -1,5 +1,6 @@
 <script>
 	import DrumAnimation from '$lib/DrumAnimation.svelte';
+	import '@fontsource/grechen-fuemen';
 
 	let isPlaying = false;
 
@@ -9,7 +10,7 @@
 </script>
 
 <div class="min-h-screen bg-black text-white flex flex-col items-center justify-center">
-	<h1 class="text-4xl font-bold mb-8 blinking text-center">Geen Gitaarles</h1>
+	<h1 class="text-6xl font-bold mb-8 blinking text-center">Geen Gitaarles</h1>
 	<div class="flex justify-center space-x-4 mb-8">
 		<div class="h-24 w-24 bg-red-500 rounded-full animate-pulse"></div>
 		<div class="h-24 w-24 bg-green-500 rounded-full animate-pulse"></div>
@@ -44,5 +45,9 @@
 		50% {
 			opacity: 0;
 		}
+	}
+
+	h1 {
+		font-family: 'Grechen Fuemen', cursive;
 	}
 </style>
