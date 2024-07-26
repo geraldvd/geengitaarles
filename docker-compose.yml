@@ -1,0 +1,9 @@
+services:
+  geengitaarles:
+    container_name: geengitaarles
+    build: .
+    restart: always
+    ports:
+      - 4110:3000
+    labels:
+      - 'com.centurylinklabs.watchtower.enable=false'
